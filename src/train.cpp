@@ -22,7 +22,7 @@ void Train::addCar(bool light) {
         first = newCar;
         first->next = first;
         first->prev = first;
-        current = first;
+        current = first;  // инициализируем current
     } else {
         newCar->next = first;
         newCar->prev = first->prev;
