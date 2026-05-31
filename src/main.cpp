@@ -8,7 +8,7 @@ int main() {
 
   while (count--)
     train.addCar(false);
-  
+
   std::cout << train.getLength() << std::endl;
   std::cout << train.getOpCount() << std::endl;
   return 0;
